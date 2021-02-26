@@ -3,6 +3,7 @@
 
 
 ## 第一個 基礎-找零錢
+
 ```c
 #include <stdio.h>
 
@@ -20,6 +21,7 @@ int main()
 ```
 
 ## 第二個 基礎-因數個數
+
 ```c
 #include <stdio.h>
 
@@ -43,8 +45,10 @@ int main()
 ```
 
 ## 第三個 基礎-找倍數
+
 ```c
 #include <stdio.h>
+
 int main()
 {
 	int a[10];
@@ -65,6 +69,7 @@ int main()
 ```
 
 ## 第四個 基礎-整數轉換等級
+
 ```c
 #include <stdio.h>
 
@@ -81,6 +86,7 @@ int main()
 ```
 
 ## 第五個 進階-分式化簡
+
 ```c
 #include <stdio.h>
 
@@ -121,6 +127,7 @@ int main()
 ```
 
 ## 第六個
+
 ```c
 
 
@@ -128,12 +135,14 @@ int main()
 
 
 ## 第七個
+
 ```c
 
 
 ```
 
 ## 第八個
+
 ```c
 
 
