@@ -10,7 +10,7 @@ struct POINT point[5] = {{0,0,0},{1,0,0},{0,1,0},{0,0,1} ,{1,1,1}};
 int main()
 {
     struct POINT *p = &point[0];
-    printf("%.2f %.2f %.2f\n", p->x, p->y , p->z);///¨Ï¥Î p->x, p->y, p->z ¨ú¥Î¨ì«ü¼Ð«ü¨ìªº­È
+    printf("%.2f %.2f %.2f\n", p->x, p->y , p->z);///ä½¿ç”¨ p->x, p->y, p->z å–ç”¨åˆ°æŒ‡æ¨™æŒ‡åˆ°çš„å€¼
 
     p++;
     printf("%.2f %.2f %.2f\n", p->x, p->y , p->z);
