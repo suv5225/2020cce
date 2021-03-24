@@ -1,1 +1,2 @@
-eeeee
+git add .
+git commit -m "add week04 by hand"
