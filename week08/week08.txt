@@ -1,0 +1,14 @@
+1. 字串 (宣告、讀、印)不知道幾筆...
+2. 字串排序 qsort() 自己compare()
+3. 數數字 for(迴圈)
+4. 印出答案
+1.1. gets()一次讀行   
+ex. char line[32];//字串宣告
+        gets( line );
+char *now=gets(line);如果成功,now就是line
+printf("%s\n", now);
+printf("%s\n", line);結果會一樣
+1.2. 如果 gets()失敗, now會變成 NULL
+1.3. 另外一種,是空行,分開不同大筆的測試資料
+1.4. N=i  0,1,2,3,4,5,6, 7失敗
+    (失敗時候的 i 就是你成功的數目)
