@@ -1,5 +1,5 @@
 
-## 1
+## 複習倒數計時
 ```c
 void setup()
 {
@@ -15,7 +15,7 @@ void draw()
 }
 ```
 
-## 2
+## 倒數計時
 ```c
 //秒數s:0,1,2,3.....9
 //     59,58,57.....0 (幫手)59-s
@@ -38,7 +38,7 @@ void draw()
 // 倒: 9,8,7,6,5,4,3,2,1,0
 ```
 
-## 3
+## tada
 ```c
 //發出聲音,有點難,要用Processing的Sound
 //這裡叫 PDE: Processing Developing Environment
@@ -64,7 +64,7 @@ void mousePressed()
 }
 ```
 
-## 4
+## 倒數完播音樂
 ```c
 //從第二步的程式開始增加
 import processing.sound.*; //Step03的程式
@@ -88,7 +88,7 @@ void draw() // 每秒60次
 } //0秒的時候,if()會進去60次,吵死了
 ```
 
-## 5
+## bell
 ```c
 //Step03的程式出發,做Step05
 import processing.sound.*; 
@@ -118,7 +118,7 @@ void mousePressed() //2種:play(),stop()
 }
 ```
 
-## 6
+## p5 js模式
 ```c
 function setup() {
     createCanvas(400,200);
