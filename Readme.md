@@ -103,10 +103,11 @@ void setup()
   textSize(40);  
 }
 
-float shift = 0;
+float shift = 0; // global變數
 
 void draw() // 畫,每秒60次
 {
+// float shift = 0; // local變數,每次都會被設定成0,就不會動了
   background(128,128,128); // RGB三色
 // float start = radians(90+mouseX);
 // float stop = radians(180+mouseX);
