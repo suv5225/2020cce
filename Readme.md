@@ -114,7 +114,7 @@ void draw() // 畫,每秒60次
   float start = radians(90+shift); 
   float stop = radians(180+shift); 
   arc(100,100, 180,180, start,stop);
-  shift += 1; //每秒轉60度
+  shift += 1; //每秒轉60度 //轉動速度
 }
  
 ```
