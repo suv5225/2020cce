@@ -153,6 +153,7 @@ void keyPressed()
   if( key >= 'a' && key <= 'z' ) line = line + key; // 小寫
   if( key >= 'A' && key <= 'Z' ) line = line + key; // 大寫
   if( key == BACKSPACE && len > 0 ) line = line.substring(0,len-1); 
+             //退一格
   if( key == ENTER )
   {
     if( line.equals(Q) == true )
